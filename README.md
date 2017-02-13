@@ -1,4 +1,7 @@
-# Welcome to ASP.NET Core
+# ASP.NET Core in Docker
+
+This is a working example of a web api that can be debugged in a Docker container. It was created using Yeoman via
+`yo aspnet` and `yo docker`, with updates to config files for current release of ASP.NET Core 1.1.
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
