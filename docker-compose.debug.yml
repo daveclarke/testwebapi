@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  testwebapi:
+    image: testwebapi:debug
+    build:
+      context: .
+      dockerfile: Dockerfile.debug
+    ports:
+      - "5000:5000"
+    environment:
+      - REMOTE_DEBUGGING

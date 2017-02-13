@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  testwebapi:
+    image: testwebapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
